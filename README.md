@@ -14,17 +14,17 @@ the two scenarios:
   * What is the mean number of boxes that a consumer must purchase to get a complete set?
   * What proportion of consumers will need to purchase 14 boxes or more to complete a set?
 
-In answering the questions, **be sure to assess the Monte Carlo error
-(through, for example, a confidence interval)**. Your script should run in less
-than about 30 seconds. Use good coding standards, such as proper indentation
-and good variable names. Make your script reuse as much code as possible, as
-opposed to having virtually-duplicated code with only minor modifications. Make
-sure your code clearly labels and displays the results rather than just
-printing out numbers. Note that, in this problem, the number of items in the
-set is 4. The best solution is general for any number of items in the set, that
-is, it is best if the code can handle selection probabilities vectors of
-arbitrary length. Summarize your results in a file called 'memo.txt' that would
-be appropriate to share with your boss who doesn't know R.
+In answering the questions, **be sure to assess the Monte Carlo error (through a
+confidence interval)**. Your script should run in less than about 30 seconds.
+Use good coding standards, such as proper indentation and good variable names.
+Make your script reuse as much code as possible, as opposed to having
+virtually-duplicated code with only minor modifications. Make sure your code
+clearly labels and displays the results rather than just printing out numbers.
+Note that, in this problem, the number of items in the set is 4. The best
+solution is general for any number of items in the set, that is, it is best if
+the code can handle selection probabilities vectors of arbitrary length.
+Summarize your results in a file called `memo.txt` that would be appropriate to
+share with your boss who doesn't know R.
 
 
 ## Birthday Problem
@@ -46,3 +46,8 @@ line, show the true probability based on the formula for the Wikipedia article.
 Your plot should look like [this](birthday.pdf) (subject to Monte Carlo error).
 Do not submit your plot as part of the homework, but do submit the R code that
 produces your plot.
+
+**There is no additional step necessary to turn in your homework. Simply create
+the scripts described above and save your work in RStudio Cloud. Remember not
+to edit or access your homework after the due date or it may be considered a
+late submission.**
